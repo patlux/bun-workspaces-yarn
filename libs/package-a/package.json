@@ -1,0 +1,15 @@
+{
+  "name": "package-a",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "package-b": "workspace:*"
+  },
+  "devDependencies": {
+    "bun-types": "^0.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bun-workspaces-yarn",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "devDependencies": {
+    "bun-types": "^0.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "workspaces": [
+    "libs/*"
+  ],
+  "private": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "package-b",
+  "module": "index.ts",
+  "main": "index.ts",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
