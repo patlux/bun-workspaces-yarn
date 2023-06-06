@@ -4,7 +4,7 @@
   "type": "module",
   "version": "1.0.0",
   "dependencies": {
-    "package-b": "workspace:*"
+    "package-b": "1.0.0"
   },
   "devDependencies": {
     "bun-types": "^0.6.0"
